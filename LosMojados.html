@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mariscos Los Mojados</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #000814, #001d3d);
+    color:white;
+    scroll-behavior: smooth;
+}
+
+nav{
+    background: rgba(0,0,0,0.8);
+    padding:15px;
+    position: fixed;
+    width:100%;
+    top:0;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00b4d8;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e") no-repeat center/cover;
+}
+
+header h1{
+    font-size:60px;
+    margin:0;
+    text-shadow:2px 2px 10px black;
+}
+
+header p{
+    font-size:22px;
+    margin-top:15px;
+    text-shadow:2px 2px 10px black;
+}
+
+.btn{
+    margin-top:25px;
+    padding:15px 30px;
+    background:#00b4d8;
+    border:none;
+    border-radius:30px;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#0077b6;
+    transform: scale(1.1);
+}
+
+section{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.card{
+    background:#001f3f;
+    margin:20px;
+    padding:25px;
+    border-radius:15px;
+    display:inline-block;
+    width:280px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    background:#003566;
+}
+
+footer{
+    background:#000814;
+    padding:20px;
+    text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#aventura">Aventura</a>
+    <a href="#equipo">Equipo</a>
+    <a href="#contacto">Contacto</a>
+</nav>
+
+<header id="inicio">
+    <h1>⚓ Mariscos Los Mojados</h1>
+    <p>Pesca tu propia cena en altamar</p>
+    <button class="btn">¡Reserva tu aventura!</button>
+</header>
+
+<section id="aventura">
+    <h2>🎣 Vive la Experiencia Extrema</h2>
+    <p>Sube a bordo, lanza tu anzuelo y captura el marisco que tú mismo disfrutarás. Frescura total garantizada.</p>
+
+    <div class="card">
+        <h3>Pesca Guiada</h3>
+        <p>Expertos te acompañan en cada captura.</p>
+    </div>
+
+    <div class="card">
+        <h3>Pesa y Compra</h3>
+        <p>Tu pesca se pesa al instante y pasa directo a cocina.</p>
+    </div>
+
+    <div class="card">
+        <h3>Ambiente Marino</h3>
+        <p>Música, brisa del mar y adrenalina pura.</p>
+    </div>
+</section>
+
+<section id="equipo">
+    <h2>🌊 Nuestra Tripulación</h2>
+    <p>Un equipo listo para hacer de tu visita una experiencia inolvidable.</p>
+    <p> Capitan Oscar: Líder de la tripulación con más de 20 años de experiencia en pesca marina.</p>
+    <p> Adrian: Encargado de Recursos Humanos</p>
+    <p> Francisco: Supervisor de pesca propia de los clientes</p>
+    <p> Juan Carlos: Procesos de logistica de pesca</p>
+    <p> Daniel: Encargado de finanzas y comerciante del barco</p>
+    <p> Rafael: Procesos de control de calidad estricto</p>
+</section>
+
+<section id="contacto">
+    <h2>📍 Ubicación</h2>
+    <p>Puerto de Veracruz, México</p>
+    <p>Reservas en: https://www.instagram.com/losmo_jados?utm_source=qr&igsh=ejE3cWx4Y3ZkcmM=</p>
+
+</section>
+
+<footer>
+    <p>© 2026 Mariscos Los Mojados | Experiencia Extrema en Altamar</p>
+    <p> ¡Siguenos en Instagram: https://www.instagram.com/losmo_jados?utm_source=qr&igsh=ejE3cWx4Y3ZkcmM=!</p>
+    <p> Diseñado por Oscar Martinez</p>
+</footer>
+
+</body>
+</html>
